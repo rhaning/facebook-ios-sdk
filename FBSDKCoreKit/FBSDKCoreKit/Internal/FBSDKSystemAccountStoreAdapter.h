@@ -16,8 +16,14 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+// TODO: IW_COMPAT
+/*
 #import <Accounts/Accounts.h>
+*/
 #import <Foundation/Foundation.h>
+
+// IW_COMPAT
+#import <FBSDKCoreKit/IWCompat.h>
 
 typedef void (^FBSDKGraphRequestAccessToAccountsHandler)(NSString *oauthToken, NSError *accountStoreError);
 
@@ -77,6 +83,7 @@ typedef void (^FBSDKGraphRequestAccessToAccountsHandler)(NSString *oauthToken, N
 /*
  @abstract A convenience getter to the Facebook account type in the account store, if available.
  */
+ // TODO: IW_COMPAT
 @property (strong, nonatomic, readonly) ACAccountType *accountType;
 
 @end

@@ -18,9 +18,12 @@
 
 #import <UIKit/UIKit.h>
 
-#import <FBSDKCoreKit/FBSDKButton.h>
+// IW_COMPAT
+//#import <FBSDKCoreKit/FBSDKButton.h>
+#import "..\..\FBSDKCoreKit\FBSDKCoreKit\FBSDKButton.h"
 
 #import <FBSDKLoginKit/FBSDKLoginManager.h>
+//#import "..\..\FBSDKCoreKit\FBSDKCoreKit\FBSDKLoginManager.h"
 
 #import "FBSDKTooltipView.h"
 

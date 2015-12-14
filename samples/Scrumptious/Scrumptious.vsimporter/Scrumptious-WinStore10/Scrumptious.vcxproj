@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Scrumptious</ProjectName>
+    <RootNamespace>Scrumptious</RootNamespace>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+    <ApplicationType>Windows Store</ApplicationType>
+    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
+    <ProjectGuid>{F6C79EA6-6647-4840-8BCB-9660C0811D7C}</ProjectGuid>
+    <WINOBJC_SDK_ROOT>D:\src\internal\WinObjC</WINOBJC_SDK_ROOT>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <TargetName>Scrumptious</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    <Optimize>true</Optimize>
+    <TargetName>Scrumptious</TargetName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(WINOBJC_SDK_ROOT)\msvc\starboard.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+    <Import Project="../Scrumptious-Headers-WinStore10/Scrumptious-Headers.vcxitems" Label="Shared" />
+    <Import Project="..\..\..\..\FBSDKShareKit\FBSDKShareKit.vsimporter\FBSDKShareKit-Headers-WinStore10\FBSDKShareKit-Headers.vcxitems" Label="Shared" />
+    <Import Project="..\..\..\..\FBSDKLoginKit\FBSDKLoginKit.vsimporter\FBSDKLoginKit-Headers-WinStore10\FBSDKLoginKit-Headers.vcxitems" Label="Shared" />
+    <Import Project="..\..\..\..\FBSDKCoreKit\FBSDKCoreKit.vsimporter\FBSDKCoreKit-Headers-WinStore10\FBSDKCoreKit-Headers.vcxitems" Label="Shared" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <PackageCertificateKeyFile>Scrumptious_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <ClangCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <HeaderMap>Combined</HeaderMap>
+      <ObjectiveCARC>true</ObjectiveCARC>
+      <OptimizationLevel>Disabled</OptimizationLevel>
+      <PrefixHeader>..\..\Scrumptious\Scrumptious-Prefix.pch</PrefixHeader>
+      <PreprocessorDefinitions>DEBUG=1</PreprocessorDefinitions>
+      <IncludePaths>D:\src\facebook-ios-sdk-iw\FBSDKCoreKit\;D:\src\facebook-ios-sdk-iw\FBSDKLoginKit\;D:\src\facebook-ios-sdk-iw\FBSDKShareKit\</IncludePaths>
+    </ClangCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies);FBSDKShareKit.lib;FBSDKLoginKit.lib;FBSDKCoreKit.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\src\facebook-ios-sdk-iw\Debug</AdditionalLibraryDirectories>
+    </Link>
+    <SBInfoPlistCopy>
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </SBInfoPlistCopy>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+    </ClCompile>
+    <ClangCompile>
+      <HeaderMap>Project</HeaderMap>
+      <ObjectiveCARC>true</ObjectiveCARC>
+      <OptimizationLevel>MinSpace</OptimizationLevel>
+      <OtherCFlags>-DNS_BLOCK_ASSERTIONS=1</OtherCFlags>
+      <OtherCPlusPlusFlags>-DNS_BLOCK_ASSERTIONS=1</OtherCPlusPlusFlags>
+      <PrefixHeader>..\..\Scrumptious\Scrumptious-Prefix.pch</PrefixHeader>
+    </ClangCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies);QuartzCore.lib;CoreLocation.lib;FBSDKShareKit.lib;FBSDKLoginKit.lib;UIKit.lib;Foundation.lib;CoreGraphics.lib;FBSDKCoreKit.lib;AddressBook.lib</AdditionalDependencies>
+    </Link>
+    <SBInfoPlistCopy>
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </SBInfoPlistCopy>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Xml Include="default.rd.xml" />
+    <None Include="Scrumptious_TemporaryKey.pfx" />
+    <Image Include="Assets\LockScreenLogo.scale-200.png" />
+    <Image Include="Assets\SplashScreen.scale-200.png" />
+    <Image Include="Assets\Square150x150Logo.scale-200.png" />
+    <Image Include="Assets\Square44x44Logo.scale-200.png" />
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Image Include="Assets\StoreLogo.png" />
+    <Image Include="Assets\Wide310x150Logo.scale-200.png" />
+    <ClangCompile Include="..\..\Scrumptious\main.m" />
+    <ClangCompile Include="..\..\scrumptious\SCLoginViewController.m" />
+    <ClangCompile Include="..\..\scrumptious\SCPickerViewController.m" />
+    <ClangCompile Include="..\..\scrumptious\SCProfilePictureButton.m" />
+    <ClangCompile Include="..\..\scrumptious\SCMainViewController.m" />
+    <ClangCompile Include="..\..\Scrumptious\SCAppDelegate.m" />
+    <ClangCompile Include="..\..\scrumptious\SCImagePicker.m" />
+    <ClangCompile Include="..\..\scrumptious\SCShareUtility.m" />
+    <ClangCompile Include="..\..\scrumptious\SCMealPicker.m" />
+    <ClangCompile Include="..\..\scrumptious\SCSettings.m" />
+    <ClInclude Include="..\..\Scrumptious\Scrumptious-Prefix.pch" />
+    <SBResourceCopy Include="..\..\Scrumptious\en.lproj\InfoPlist.strings">
+      <VariantDir>en.lproj</VariantDir>
+    </SBResourceCopy>
+    <StoryboardCompile Include="..\..\scrumptious\SCMain.storyboard" />
+    <AssetCatalogCompile Include="..\..\Scrumptious\Images.xcassets" />
+    <SBResourceCopy Include="..\..\scrumptious\en.lproj\Scrumptious.strings">
+      <VariantDir>en.lproj</VariantDir>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\ReadMe.txt" />
+    <SBInfoPlistCopy Include="..\..\Scrumptious\Scrumptious-Info.plist">
+      <ExcludedFromBuild Condition="'$(Configuration)'=='Debug'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)'=='Release'">false</ExcludedFromBuild>
+      <VariableFile Condition="'$(Configuration)'=='Debug'">Scrumptious-Debug-xcvars.txt</VariableFile>
+      <VariableFile Condition="'$(Configuration)'=='Release'">Scrumptious-Release-xcvars.txt</VariableFile>
+    </SBInfoPlistCopy>
+    <Text Include="Scrumptious-Debug-xcvars.txt">
+      <DeploymentContent>false</DeploymentContent>
+    </Text>
+    <Text Include="Scrumptious-Release-xcvars.txt">
+      <DeploymentContent>false</DeploymentContent>
+    </Text>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(WINOBJC_SDK_ROOT)\msvc\starboard.targets" />
+  </ImportGroup>
+</Project>

@@ -18,6 +18,9 @@
 
 #import "FBSDKPaymentObserver.h"
 
+// IW_COMPAT
+
+/*
 #import <StoreKit/StoreKit.h>
 
 #import "FBSDKAppEvents+Internal.h"
@@ -279,3 +282,4 @@ static NSMutableArray *g_pendingRequestors;
 }
 
 @end
+*/

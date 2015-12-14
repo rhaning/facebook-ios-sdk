@@ -133,8 +133,9 @@ didReceiveResponse:(NSURLResponse *)response
 
 - (void)connection:(NSURLConnection *)connection
   didFailWithError:(NSError *)error {
-  @try {
-    if ([error.domain isEqualToString:NSURLErrorDomain] && error.code == kCFURLErrorSecureConnectionFailed) {
+  // IW_COMPAT
+  //@try {
+    if ([error.domain isEqualToString:NSURLErrorDomain] && error.code == -1200 /*kCFURLErrorSecureConnectionFailed*/) { // IW_COMPAT
       NSOperatingSystemVersion iOS9Version = { .majorVersion = 9, .minorVersion = 0, .patchVersion = 0 };
       if ([FBSDKInternalUtility isOSRunTimeVersionAtLeast:iOS9Version]) {
         [FBSDKLogger singleShotLogEntry:FBSDKLoggingBehaviorDeveloperErrors
@@ -143,18 +144,18 @@ didReceiveResponse:(NSURLResponse *)response
       }
     }
     [self logAndInvokeHandler:self.handler error:error];
-  } @finally {
+  //} @finally {
     self.handler = nil;
-  }
+  //}
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
 {
-  @try {
+  //@try {
     [self logAndInvokeHandler:self.handler response:self.response responseData:self.data];
-  } @finally {
+  //} @finally {
     self.handler = nil;
-  }
+  //}
 }
 
 - (NSURLRequest *)connection:(NSURLConnection *)connection
@@ -185,7 +186,8 @@ totalBytesExpectedToWrite:(NSInteger)totalBytesExpectedToWrite
 
 - (void)setDelegateQueue:(NSOperationQueue*)queue
 {
-  [_connection setDelegateQueue:queue];
+  // IW_COMPAT
+  // [_connection setDelegateQueue:queue];
 }
 
 @end

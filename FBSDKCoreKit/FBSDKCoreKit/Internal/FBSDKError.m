@@ -49,9 +49,9 @@
     case NSURLErrorNetworkConnectionLost:
     case NSURLErrorDNSLookupFailed:
     case NSURLErrorNotConnectedToInternet:
-    case NSURLErrorInternationalRoamingOff:
-    case NSURLErrorCallIsActive:
-    case NSURLErrorDataNotAllowed:
+    //case NSURLErrorInternationalRoamingOff:
+    //case NSURLErrorCallIsActive:
+    //case NSURLErrorDataNotAllowed:
       return YES;
     default:
       return NO;

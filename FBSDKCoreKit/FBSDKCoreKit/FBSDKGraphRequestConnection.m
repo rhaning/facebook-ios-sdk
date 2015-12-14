@@ -34,6 +34,9 @@
 #import "FBSDKSettings+Internal.h"
 #import "FBSDKURLConnection.h"
 
+// IW_COMPAT
+#import "IWCompat.h"
+
 NSString *const FBSDKNonJSONResponseProperty = @"FACEBOOK_NON_JSON_RESULT";
 
 // URL construction constants

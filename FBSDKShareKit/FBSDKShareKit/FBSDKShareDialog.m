@@ -324,21 +324,29 @@
 
 - (BOOL)_canAttributeThroughShareSheet
 {
+  return NO;
+// IW_COMPAT
+/*
   NSOperatingSystemVersion iOS8Version = { .majorVersion = 8, .minorVersion = 0, .patchVersion = 0 };
   if (![FBSDKInternalUtility isOSRunTimeVersionAtLeast:iOS8Version]) {
     return NO;
   }
   NSString *scheme = FBSDK_SHARE_DIALOG_APP_SCHEME;
   NSString *minimumVersion = FBSDK_SHARE_METHOD_ATTRIBUTED_SHARE_SHEET_MIN_VERSION;
+
   NSURLComponents *components = [[NSURLComponents alloc] init];
   components.scheme = [scheme stringByAppendingString:minimumVersion];
   components.path = @"/";
   return ([[UIApplication sharedApplication] canOpenURL:components.URL] ||
           [self _canUseFBShareSheet]);
+	*/
 }
 
 - (BOOL)_canUseFBShareSheet
 {
+return NO;
+// IW_COMPAT
+/*
   NSOperatingSystemVersion iOS8Version = { .majorVersion = 8, .minorVersion = 0, .patchVersion = 0 };
   if (![FBSDKInternalUtility isOSRunTimeVersionAtLeast:iOS8Version]) {
     return NO;
@@ -347,6 +355,7 @@
   components.scheme = FBSDK_SHARE_EXTENSION_APP_SCHEME;
   components.path = @"/";
   return [[UIApplication sharedApplication] canOpenURL:components.URL];
+  */
 }
 
 - (void)_cleanUpWebDialog

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>FBSDKShareKit</ProjectName>
+    <RootNamespace>FBSDKShareKit</RootNamespace>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ApplicationType>Windows Store</ApplicationType>
+    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
+    <ProjectGuid>{C1C85015-ED19-4D3E-81C8-6F52D0279B7E}</ProjectGuid>
+    <WINOBJC_SDK_ROOT>D:\src\internal\WinObjC</WINOBJC_SDK_ROOT>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(WINOBJC_SDK_ROOT)\msvc\starboard.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+    <Import Project="../FBSDKShareKit-Headers-WinStore10/FBSDKShareKit-Headers.vcxitems" Label="Shared" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>FBSDKShareKit</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <ClangCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <HeaderMap>Project</HeaderMap>
+      <IncludePaths>..\..\sbuild\Debug-iphoneos;..\..\sbuild\FBSDKShareKit.sbuild\Debug-iphoneos\FBSDKShareKit.sbuild\DerivedSources;..\..\FBSDKCoreKit;..\..\..\FBSDKCoreKit;..\..\FBSDKShareKit;..\..\..\FBSDKShareKit</IncludePaths>
+      <ObjectiveCARC>true</ObjectiveCARC>
+      <OptimizationLevel>Disabled</OptimizationLevel>
+      <PreprocessorDefinitions>DEBUG=1</PreprocessorDefinitions>
+    </ClangCompile>
+    <Lib>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile />
+    <ClangCompile>
+      <HeaderMap>Project</HeaderMap>
+      <IncludePaths>..\..\sbuild\Release-iphoneos;..\..\sbuild\FBSDKShareKit.sbuild\Release-iphoneos\FBSDKShareKit.sbuild\DerivedSources</IncludePaths>
+      <ObjectiveCARC>true</ObjectiveCARC>
+      <OptimizationLevel>MinSpace</OptimizationLevel>
+      <OtherCFlags>-DNS_BLOCK_ASSERTIONS=1</OtherCFlags>
+      <OtherCPlusPlusFlags>-DNS_BLOCK_ASSERTIONS=1</OtherCPlusPlusFlags>
+    </ClangCompile>
+    <Lib>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKSendButton.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKLikeBoxView.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareButton.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareVideo.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKMessageDialog.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKLikeObjectType.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareLinkContent.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKSharePhotoContent.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKLikeButtonPopWAV.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareDialog.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKLikeDialog.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKCheckmarkIcon.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKGameRequestContent.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareOpenGraphValueContainer.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKLikeActionControllerCache.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKGameRequestDialog.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareConstants.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKMessengerIcon.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKShareError.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKShareUtility.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKAppGroupJoinDialog.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareOpenGraphAction.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareVideoContent.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareAPI.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKVideoUploader.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareDialogMode.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKLikeActionController.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKAppInviteDialog.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKLikeBoxBorderView.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKAppGroupAddDialog.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareOpenGraphObject.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKSharePhoto.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKAppGroupContent.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKLikeControl.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKGameRequestFrictionlessRecipientCache.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareOpenGraphContent.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKLikeButton.m" />
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKAppInviteContent.m" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../../FBSDKCoreKit/FBSDKCoreKit.vsimporter/FBSDKCoreKit-WinStore10/FBSDKCoreKit.vcxproj">
+      <Project>{6B2EA18B-2B8D-42AE-881A-2F36CE9AB95D}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(WINOBJC_SDK_ROOT)\msvc\starboard.targets" />
+  </ImportGroup>
+</Project>

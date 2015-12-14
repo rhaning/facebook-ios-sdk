@@ -16,6 +16,10 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+
+// IW_COMPAT
+
+/*
 #import "FBSDKAppLinkResolver.h"
 
 #import <UIKit/UIKit.h>
@@ -193,3 +197,5 @@ static Class g_BFTaskClass;
 }
 
 @end
+
+*/

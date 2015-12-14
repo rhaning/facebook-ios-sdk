@@ -18,6 +18,7 @@
 
 #import <UIKit/UIKit.h>
 
+//IW_COMPAT
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 
 #import "AppEvents/FBSDKAppEvents+Internal.h"

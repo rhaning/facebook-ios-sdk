@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FBSDKCoreKit">
+      <UniqueIdentifier>{BB801FB0-2724-4DF0-80F1-B35117ED10D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal">
+      <UniqueIdentifier>{65EBE859-62A5-492F-909A-0540C6BDE8AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\AppEvents">
+      <UniqueIdentifier>{5CE07D94-6D22-402B-8103-862EC686A5C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\AppLink">
+      <UniqueIdentifier>{36C14D6A-3403-4FB0-BC48-D6F931EB7F65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\Base64">
+      <UniqueIdentifier>{83B95682-5826-4698-AAD5-E302875803BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\BridgeAPI">
+      <UniqueIdentifier>{265899FB-E572-482A-AD89-D405F3E906A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions">
+      <UniqueIdentifier>{C2352351-E9BA-49DD-BC7E-6139BAAFF689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\Cryptography">
+      <UniqueIdentifier>{1E104B7E-ED45-4110-A36E-DCA42DF96A08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\ErrorRecovery">
+      <UniqueIdentifier>{18FEBD19-BD21-465E-869C-D123DC0F1588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\Network">
+      <UniqueIdentifier>{730174B1-B277-4160-8311-97520FE7F39D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\ServerConfiguration">
+      <UniqueIdentifier>{FCFFD547-5D39-4353-B948-B12D6D7CA551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\TokenCaching">
+      <UniqueIdentifier>{B5C7D593-CBD2-4F7A-8AE8-0CC11B95AF2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\UI">
+      <UniqueIdentifier>{58247C6B-1529-4C49-8AD3-33E181156EDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\WebDialog">
+      <UniqueIdentifier>{8EB4BF9A-A5EC-4E75-9EDB-AE6B560C552E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKSystemAccountStoreAdapter.m">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\Network\FBSDKGraphRequestPiggybackManager.m">
+      <Filter>FBSDKCoreKit\Internal\Network</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEventsStateManager.m">
+      <Filter>FBSDKCoreKit\Internal\AppEvents</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKServerConfigurationManager.m">
+      <Filter>FBSDKCoreKit\Internal\ServerConfiguration</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKGraphRequest.m">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKContainerViewController.m">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCache.m">
+      <Filter>FBSDKCoreKit\Internal\TokenCaching</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\Cryptography\FBSDKCrypto.m">
+      <Filter>FBSDKCoreKit\Internal\Cryptography</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEventsState.m">
+      <Filter>FBSDKCoreKit\Internal\AppEvents</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\UI\FBSDKCloseIcon.m">
+      <Filter>FBSDKCoreKit\Internal\UI</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\Base64\FBSDKBase64.m">
+      <Filter>FBSDKCoreKit\Internal\Base64</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions\FBSDKBridgeAPIProtocolWebV2.m">
+      <Filter>FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\Network\FBSDKGraphRequestBody.m">
+      <Filter>FBSDKCoreKit\Internal\Network</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKUtility.m">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKTestUsersManager.m">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\AppLink\FBSDKBoltsMeasurementEventListener.m">
+      <Filter>FBSDKCoreKit\Internal\AppLink</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKProfilePictureView.m">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKTriStateBOOL.m">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKLogger.m">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKApplicationDelegate.m">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKGraphRequestDataAttachment.m">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKDialogConfiguration.m">
+      <Filter>FBSDKCoreKit\Internal\ServerConfiguration</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKAccessToken.m">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKInternalUtility.m">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKMonotonicTime.m">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCacheV4.m">
+      <Filter>FBSDKCoreKit\Internal\TokenCaching</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKAppLinkUtility.m">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\UI\FBSDKViewImpressionTracker.m">
+      <Filter>FBSDKCoreKit\Internal\UI</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPIRequest.m">
+      <Filter>FBSDKCoreKit\Internal\BridgeAPI</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEventsDeviceInfo.m">
+      <Filter>FBSDKCoreKit\Internal\AppEvents</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKError.m">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCacheV3_21.m">
+      <Filter>FBSDKCoreKit\Internal\TokenCaching</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKTypeUtility.m">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKAudioResourceLoader.m">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\UI\FBSDKLogo.m">
+      <Filter>FBSDKCoreKit\Internal\UI</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKPaymentObserver.m">
+      <Filter>FBSDKCoreKit\Internal\AppEvents</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPIResponse.m">
+      <Filter>FBSDKCoreKit\Internal\BridgeAPI</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKErrorRecoveryConfiguration.m">
+      <Filter>FBSDKCoreKit\Internal\ServerConfiguration</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCacheV3_17.m">
+      <Filter>FBSDKCoreKit\Internal\TokenCaching</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKGraphErrorRecoveryProcessor.m">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPICrypto.m">
+      <Filter>FBSDKCoreKit\Internal\BridgeAPI</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKTimeSpentData.m">
+      <Filter>FBSDKCoreKit\Internal\AppEvents</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKDynamicFrameworkLoader.m">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions\FBSDKBridgeAPIProtocolWebV1.m">
+      <Filter>FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKMath.m">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\WebDialog\FBSDKWebDialog.m">
+      <Filter>FBSDKCoreKit\Internal\WebDialog</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\UI\FBSDKColor.m">
+      <Filter>FBSDKCoreKit\Internal\UI</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKAppLinkResolver.m">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\UI\FBSDKIcon.m">
+      <Filter>FBSDKCoreKit\Internal\UI</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKConstants.m">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEventsUtility.m">
+      <Filter>FBSDKCoreKit\Internal\AppEvents</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKSettings.m">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKButton.m">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\Network\FBSDKGraphRequestMetadata.m">
+      <Filter>FBSDKCoreKit\Internal\Network</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\Network\FBSDKURLConnection.m">
+      <Filter>FBSDKCoreKit\Internal\Network</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\ErrorRecovery\FBSDKErrorRecoveryAttempter.m">
+      <Filter>FBSDKCoreKit\Internal\ErrorRecovery</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKProfile.m">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKKeychainStore.m">
+      <Filter>FBSDKCoreKit\Internal\TokenCaching</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKGraphRequestConnection.m">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCacheV3.m">
+      <Filter>FBSDKCoreKit\Internal\TokenCaching</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKAppEvents.m">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\ErrorRecovery\_FBSDKTemporaryErrorRecoveryAttempter.m">
+      <Filter>FBSDKCoreKit\Internal\ErrorRecovery</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions\FBSDKBridgeAPIProtocolNativeV1.m">
+      <Filter>FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\WebDialog\FBSDKWebDialogView.m">
+      <Filter>FBSDKCoreKit\Internal\WebDialog</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKErrorConfiguration.m">
+      <Filter>FBSDKCoreKit\Internal\ServerConfiguration</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKKeychainStoreViaBundleID.m">
+      <Filter>FBSDKCoreKit\Internal\TokenCaching</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKServerConfiguration.m">
+      <Filter>FBSDKCoreKit\Internal\ServerConfiguration</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\UI\FBSDKMaleSilhouetteIcon.m">
+      <Filter>FBSDKCoreKit\Internal\UI</Filter>
+    </ClangCompile>
+  </ItemGroup>
+</Project>

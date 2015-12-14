@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>FBSDKCoreKit</ProjectName>
+    <RootNamespace>FBSDKCoreKit</RootNamespace>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ApplicationType>Windows Store</ApplicationType>
+    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
+    <ProjectGuid>{6B2EA18B-2B8D-42AE-881A-2F36CE9AB95D}</ProjectGuid>
+    <WINOBJC_SDK_ROOT>D:\src\internal\WinObjC</WINOBJC_SDK_ROOT>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(WINOBJC_SDK_ROOT)\msvc\starboard.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+    <Import Project="../FBSDKCoreKit-Headers-WinStore10/FBSDKCoreKit-Headers.vcxitems" Label="Shared" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>FBSDKCoreKit</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <ClangCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <HeaderMap>Combined</HeaderMap>
+      <IncludePaths>..\..\sbuild\Debug-iphoneos;..\..\sbuild\FBSDKCoreKit.sbuild\Debug-iphoneos\FBSDKCoreKit.sbuild\DerivedSources;..\..\FBSDKCoreKit\;..\..\..\FBSDKCoreKit\</IncludePaths>
+      <ObjectiveCARC>true</ObjectiveCARC>
+      <OptimizationLevel>Disabled</OptimizationLevel>
+      <PreprocessorDefinitions>DEBUG=1</PreprocessorDefinitions>
+    </ClangCompile>
+    <Lib>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile />
+    <ClangCompile>
+      <HeaderMap>Project</HeaderMap>
+      <IncludePaths>..\..\sbuild\Release-iphoneos;..\..\sbuild\FBSDKCoreKit.sbuild\Release-iphoneos\FBSDKCoreKit.sbuild\DerivedSources</IncludePaths>
+      <ObjectiveCARC>true</ObjectiveCARC>
+      <OptimizationLevel>MinSpace</OptimizationLevel>
+      <OtherCFlags>-DNS_BLOCK_ASSERTIONS=1</OtherCFlags>
+      <OtherCPlusPlusFlags>-DNS_BLOCK_ASSERTIONS=1</OtherCPlusPlusFlags>
+    </ClangCompile>
+    <Lib>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKSystemAccountStoreAdapter.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\Network\FBSDKGraphRequestPiggybackManager.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEventsStateManager.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKServerConfigurationManager.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKGraphRequest.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKContainerViewController.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCache.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\Cryptography\FBSDKCrypto.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEventsState.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\UI\FBSDKCloseIcon.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\Base64\FBSDKBase64.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions\FBSDKBridgeAPIProtocolWebV2.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\Network\FBSDKGraphRequestBody.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKUtility.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKTestUsersManager.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\AppLink\FBSDKBoltsMeasurementEventListener.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKProfilePictureView.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKTriStateBOOL.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKLogger.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKApplicationDelegate.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKGraphRequestDataAttachment.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKDialogConfiguration.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKAccessToken.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKInternalUtility.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKMonotonicTime.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCacheV4.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKAppLinkUtility.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\UI\FBSDKViewImpressionTracker.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPIRequest.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEventsDeviceInfo.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKError.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCacheV3_21.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKTypeUtility.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKAudioResourceLoader.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\UI\FBSDKLogo.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKPaymentObserver.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPIResponse.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKErrorRecoveryConfiguration.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCacheV3_17.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKGraphErrorRecoveryProcessor.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPICrypto.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKTimeSpentData.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKDynamicFrameworkLoader.m">
+      <AdditionalOptions>$(AdditionalOptions) -fno-objc-arc</AdditionalOptions>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions\FBSDKBridgeAPIProtocolWebV1.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\FBSDKMath.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\WebDialog\FBSDKWebDialog.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\UI\FBSDKColor.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKAppLinkResolver.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\UI\FBSDKIcon.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKConstants.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEventsUtility.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKSettings.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKButton.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\Network\FBSDKGraphRequestMetadata.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\Network\FBSDKURLConnection.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\ErrorRecovery\FBSDKErrorRecoveryAttempter.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKProfile.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKKeychainStore.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKGraphRequestConnection.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCacheV3.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\FBSDKAppEvents.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\ErrorRecovery\_FBSDKTemporaryErrorRecoveryAttempter.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions\FBSDKBridgeAPIProtocolNativeV1.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\WebDialog\FBSDKWebDialogView.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKErrorConfiguration.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKKeychainStoreViaBundleID.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKServerConfiguration.m" />
+    <ClangCompile Include="..\..\FBSDKCoreKit\Internal\UI\FBSDKMaleSilhouetteIcon.m" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../../Bolts-IOS/Bolts.vsimporter/Bolts-WinStore10/Bolts.vcxproj">
+      <Project>{87448178-C0F8-4C21-908E-CBCF296FA57C}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(WINOBJC_SDK_ROOT)\msvc\starboard.targets" />
+  </ImportGroup>
+</Project>

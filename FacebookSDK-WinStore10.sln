@@ -1,0 +1,121 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bolts", "Bolts", "{CF847E7F-4394-46D8-A7EE-8DB9986C982D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FBSDKCoreKit", "FBSDKCoreKit", "{3C067EB0-92C6-4CA5-94EB-7A8288B97510}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FBSDKIntegrationTests", "FBSDKIntegrationTests", "{C647771C-CFA7-4062-B630-0821E0440760}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FBSDKLoginKit", "FBSDKLoginKit", "{9E095006-2411-480E-83BA-43EAF53445A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FBSDKShareKit", "FBSDKShareKit", "{C55734AE-28CA-409E-88D2-88759BBDEA3A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bolts-Headers", "Bolts-IOS\Bolts.vsimporter\Bolts-Headers-WinStore10\Bolts-Headers.vcxitems", "{54AB73F0-4670-42B8-8D7F-88ED8AB10F07}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bolts", "Bolts-IOS\Bolts.vsimporter\Bolts-WinStore10\Bolts.vcxproj", "{87448178-C0F8-4C21-908E-CBCF296FA57C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FBSDKCoreKit-Headers", "FBSDKCoreKit\FBSDKCoreKit.vsimporter\FBSDKCoreKit-Headers-WinStore10\FBSDKCoreKit-Headers.vcxitems", "{A6E6E4C7-684B-4341-ADBA-EF14AFD71DDC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FBSDKCoreKit-Universal", "FBSDKCoreKit\FBSDKCoreKit.vsimporter\FBSDKCoreKit-Universal-WinStore10\FBSDKCoreKit-Universal.vcxproj", "{0E6624BC-859B-4137-957B-6A534ED8C753}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B2EA18B-2B8D-42AE-881A-2F36CE9AB95D} = {6B2EA18B-2B8D-42AE-881A-2F36CE9AB95D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FBSDKCoreKit", "FBSDKCoreKit\FBSDKCoreKit.vsimporter\FBSDKCoreKit-WinStore10\FBSDKCoreKit.vcxproj", "{6B2EA18B-2B8D-42AE-881A-2F36CE9AB95D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{87448178-C0F8-4C21-908E-CBCF296FA57C} = {87448178-C0F8-4C21-908E-CBCF296FA57C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FBSDKLoginKit-Headers", "FBSDKLoginKit\FBSDKLoginKit.vsimporter\FBSDKLoginKit-Headers-WinStore10\FBSDKLoginKit-Headers.vcxitems", "{3BC195F2-4F17-4138-B86D-EDAD2E873060}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FBSDKLoginKit-Universal", "FBSDKLoginKit\FBSDKLoginKit.vsimporter\FBSDKLoginKit-Universal-WinStore10\FBSDKLoginKit-Universal.vcxproj", "{2DCB1F49-B9ED-4A24-850A-AB38A5AA29A3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{84DCC944-2AC2-4B19-B99A-3718406F9715} = {84DCC944-2AC2-4B19-B99A-3718406F9715}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FBSDKLoginKit", "FBSDKLoginKit\FBSDKLoginKit.vsimporter\FBSDKLoginKit-WinStore10\FBSDKLoginKit.vcxproj", "{84DCC944-2AC2-4B19-B99A-3718406F9715}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B2EA18B-2B8D-42AE-881A-2F36CE9AB95D} = {6B2EA18B-2B8D-42AE-881A-2F36CE9AB95D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FBSDKIntegrationTests-Headers", "FBSDKIntegrationTests\FBSDKIntegrationTests.vsimporter\FBSDKIntegrationTests-Headers-WinStore10\FBSDKIntegrationTests-Headers.vcxitems", "{7B841715-3B6B-4313-B286-5E04EFBEB2F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FBSDKShareKit-Headers", "FBSDKShareKit\FBSDKShareKit.vsimporter\FBSDKShareKit-Headers-WinStore10\FBSDKShareKit-Headers.vcxitems", "{ACDC45D6-92A2-4FEB-B677-006FF9A5083A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FBSDKShareKit-universal", "FBSDKShareKit\FBSDKShareKit.vsimporter\FBSDKShareKit-universal-WinStore10\FBSDKShareKit-universal.vcxproj", "{1D07C7C9-F1E9-4929-8822-D48AF5D834EF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C1C85015-ED19-4D3E-81C8-6F52D0279B7E} = {C1C85015-ED19-4D3E-81C8-6F52D0279B7E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FBSDKShareKit", "FBSDKShareKit\FBSDKShareKit.vsimporter\FBSDKShareKit-WinStore10\FBSDKShareKit.vcxproj", "{C1C85015-ED19-4D3E-81C8-6F52D0279B7E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B2EA18B-2B8D-42AE-881A-2F36CE9AB95D} = {6B2EA18B-2B8D-42AE-881A-2F36CE9AB95D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Bolts-IOS\Bolts.vsimporter\Bolts-Headers-WinStore10\Bolts-Headers.vcxitems*{87448178-c0f8-4c21-908e-cbcf296fa57c}*SharedItemsImports = 4
+		FBSDKCoreKit\FBSDKCoreKit.vsimporter\FBSDKCoreKit-Headers-WinStore10\FBSDKCoreKit-Headers.vcxitems*{84dcc944-2ac2-4b19-b99a-3718406f9715}*SharedItemsImports = 4
+		FBSDKLoginKit\FBSDKLoginKit.vsimporter\FBSDKLoginKit-Headers-WinStore10\FBSDKLoginKit-Headers.vcxitems*{84dcc944-2ac2-4b19-b99a-3718406f9715}*SharedItemsImports = 4
+		FBSDKLoginKit\FBSDKLoginKit.vsimporter\FBSDKLoginKit-Headers-WinStore10\FBSDKLoginKit-Headers.vcxitems*{3bc195f2-4f17-4138-b86d-edad2e873060}*SharedItemsImports = 9
+		Bolts-IOS\Bolts.vsimporter\Bolts-Headers-WinStore10\Bolts-Headers.vcxitems*{54ab73f0-4670-42b8-8d7f-88ed8ab10f07}*SharedItemsImports = 9
+		FBSDKIntegrationTests\FBSDKIntegrationTests.vsimporter\FBSDKIntegrationTests-Headers-WinStore10\FBSDKIntegrationTests-Headers.vcxitems*{7b841715-3b6b-4313-b286-5e04efbeb2f2}*SharedItemsImports = 9
+		FBSDKCoreKit\FBSDKCoreKit.vsimporter\FBSDKCoreKit-Headers-WinStore10\FBSDKCoreKit-Headers.vcxitems*{a6e6e4c7-684b-4341-adba-ef14afd71ddc}*SharedItemsImports = 9
+		FBSDKShareKit\FBSDKShareKit.vsimporter\FBSDKShareKit-Headers-WinStore10\FBSDKShareKit-Headers.vcxitems*{acdc45d6-92a2-4feb-b677-006ff9a5083a}*SharedItemsImports = 9
+		FBSDKShareKit\FBSDKShareKit.vsimporter\FBSDKShareKit-Headers-WinStore10\FBSDKShareKit-Headers.vcxitems*{c1c85015-ed19-4d3e-81c8-6f52d0279b7e}*SharedItemsImports = 4
+		FBSDKCoreKit\FBSDKCoreKit.vsimporter\FBSDKCoreKit-Headers-WinStore10\FBSDKCoreKit-Headers.vcxitems*{6b2ea18b-2b8d-42ae-881a-2f36ce9ab95d}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87448178-C0F8-4C21-908E-CBCF296FA57C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{87448178-C0F8-4C21-908E-CBCF296FA57C}.Debug|Win32.Build.0 = Debug|Win32
+		{87448178-C0F8-4C21-908E-CBCF296FA57C}.Release|Win32.ActiveCfg = Release|Win32
+		{87448178-C0F8-4C21-908E-CBCF296FA57C}.Release|Win32.Build.0 = Release|Win32
+		{0E6624BC-859B-4137-957B-6A534ED8C753}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0E6624BC-859B-4137-957B-6A534ED8C753}.Debug|Win32.Build.0 = Debug|Win32
+		{0E6624BC-859B-4137-957B-6A534ED8C753}.Release|Win32.ActiveCfg = Release|Win32
+		{0E6624BC-859B-4137-957B-6A534ED8C753}.Release|Win32.Build.0 = Release|Win32
+		{6B2EA18B-2B8D-42AE-881A-2F36CE9AB95D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6B2EA18B-2B8D-42AE-881A-2F36CE9AB95D}.Debug|Win32.Build.0 = Debug|Win32
+		{6B2EA18B-2B8D-42AE-881A-2F36CE9AB95D}.Release|Win32.ActiveCfg = Release|Win32
+		{6B2EA18B-2B8D-42AE-881A-2F36CE9AB95D}.Release|Win32.Build.0 = Release|Win32
+		{2DCB1F49-B9ED-4A24-850A-AB38A5AA29A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2DCB1F49-B9ED-4A24-850A-AB38A5AA29A3}.Debug|Win32.Build.0 = Debug|Win32
+		{2DCB1F49-B9ED-4A24-850A-AB38A5AA29A3}.Release|Win32.ActiveCfg = Release|Win32
+		{2DCB1F49-B9ED-4A24-850A-AB38A5AA29A3}.Release|Win32.Build.0 = Release|Win32
+		{84DCC944-2AC2-4B19-B99A-3718406F9715}.Debug|Win32.ActiveCfg = Debug|Win32
+		{84DCC944-2AC2-4B19-B99A-3718406F9715}.Debug|Win32.Build.0 = Debug|Win32
+		{84DCC944-2AC2-4B19-B99A-3718406F9715}.Release|Win32.ActiveCfg = Release|Win32
+		{84DCC944-2AC2-4B19-B99A-3718406F9715}.Release|Win32.Build.0 = Release|Win32
+		{1D07C7C9-F1E9-4929-8822-D48AF5D834EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1D07C7C9-F1E9-4929-8822-D48AF5D834EF}.Debug|Win32.Build.0 = Debug|Win32
+		{1D07C7C9-F1E9-4929-8822-D48AF5D834EF}.Release|Win32.ActiveCfg = Release|Win32
+		{1D07C7C9-F1E9-4929-8822-D48AF5D834EF}.Release|Win32.Build.0 = Release|Win32
+		{C1C85015-ED19-4D3E-81C8-6F52D0279B7E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C1C85015-ED19-4D3E-81C8-6F52D0279B7E}.Debug|Win32.Build.0 = Debug|Win32
+		{C1C85015-ED19-4D3E-81C8-6F52D0279B7E}.Release|Win32.ActiveCfg = Release|Win32
+		{C1C85015-ED19-4D3E-81C8-6F52D0279B7E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54AB73F0-4670-42B8-8D7F-88ED8AB10F07} = {CF847E7F-4394-46D8-A7EE-8DB9986C982D}
+		{87448178-C0F8-4C21-908E-CBCF296FA57C} = {CF847E7F-4394-46D8-A7EE-8DB9986C982D}
+		{A6E6E4C7-684B-4341-ADBA-EF14AFD71DDC} = {3C067EB0-92C6-4CA5-94EB-7A8288B97510}
+		{0E6624BC-859B-4137-957B-6A534ED8C753} = {3C067EB0-92C6-4CA5-94EB-7A8288B97510}
+		{6B2EA18B-2B8D-42AE-881A-2F36CE9AB95D} = {3C067EB0-92C6-4CA5-94EB-7A8288B97510}
+		{3BC195F2-4F17-4138-B86D-EDAD2E873060} = {9E095006-2411-480E-83BA-43EAF53445A4}
+		{2DCB1F49-B9ED-4A24-850A-AB38A5AA29A3} = {9E095006-2411-480E-83BA-43EAF53445A4}
+		{84DCC944-2AC2-4B19-B99A-3718406F9715} = {9E095006-2411-480E-83BA-43EAF53445A4}
+		{7B841715-3B6B-4313-B286-5E04EFBEB2F2} = {C647771C-CFA7-4062-B630-0821E0440760}
+		{ACDC45D6-92A2-4FEB-B677-006FF9A5083A} = {C55734AE-28CA-409E-88D2-88759BBDEA3A}
+		{1D07C7C9-F1E9-4929-8822-D48AF5D834EF} = {C55734AE-28CA-409E-88D2-88759BBDEA3A}
+		{C1C85015-ED19-4D3E-81C8-6F52D0279B7E} = {C55734AE-28CA-409E-88D2-88759BBDEA3A}
+	EndGlobalSection
+EndGlobal

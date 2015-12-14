@@ -40,9 +40,11 @@ static NSString *g_cipherKey = nil;
   [FBSDKInternalUtility dictionary:queryParameters setObject:[self _cipherKey] forKey:FBSDKBridgeAPICryptoCipherKeyKey];
 }
 
+// IW_COMPAT
+/*
 + (NSDictionary *)decryptResponseForRequest:(FBSDKBridgeAPIRequest *)request
                             queryParameters:(NSDictionary *)queryParameters
-                                      error:(NSError *__autoreleasing *)errorRef
+                                      error:(NSError * __autoreleasing * )errorRef
 {
   if (errorRef != NULL) {
     *errorRef = nil;
@@ -101,7 +103,7 @@ static NSString *g_cipherKey = nil;
   decryptedQueryParameters[FBSDKBridgeAPIVersionKey] = version;
   return [decryptedQueryParameters copy];
 }
-
+*/
 + (void)reset
 {
   [self _resetCipherKey];

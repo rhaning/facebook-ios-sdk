@@ -292,6 +292,9 @@ static NSString *const FBSDKAppLinkInboundEvent = @"fb_al_inbound";
   // in cases it is not available regular flow will be selected
   Class SFSafariViewControllerClass = fbsdkdfl_SFSafariViewControllerClass();
 
+  // IW_COMPAT
+	
+  /*
   if (SFSafariViewControllerClass) {
     UIViewController *parent = fromViewController ?: [FBSDKInternalUtility topMostViewController];
     NSURLComponents *components = [NSURLComponents componentsWithURL:url resolvingAgainstBaseURL:NO];
@@ -309,7 +312,7 @@ static NSString *const FBSDKAppLinkInboundEvent = @"fb_al_inbound";
         [container displayChildController:_safariViewController];
         [parent presentViewController:container animated:YES completion:nil];
       }];
-    } else {
+    } else  {
       _safariViewController = [[SFSafariViewControllerClass alloc] initWithURL:url];
       [_safariViewController performSelector:@selector(setDelegate:) withObject:self];
       [container displayChildController:_safariViewController];
@@ -320,9 +323,9 @@ static NSString *const FBSDKAppLinkInboundEvent = @"fb_al_inbound";
     if (handler) {
       handler(YES);
     }
-  } else {
+  } else { */
     [self openURL:url sender:sender handler:handler];
-  }
+ // }
 }
 
 - (void)openURL:(NSURL *)url sender:(id<FBSDKURLOpening>)sender handler:(void(^)(BOOL))handler

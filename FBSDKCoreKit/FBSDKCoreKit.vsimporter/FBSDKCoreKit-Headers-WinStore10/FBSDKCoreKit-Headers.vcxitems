@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsRootNamespace>FBSDKCoreKit_Headers</ItemsRootNamespace>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <ItemsProjectGuid>{A6E6E4C7-684B-4341-ADBA-EF14AFD71DDC}</ItemsProjectGuid>
+    <SharedGUID>{0316CD67-9046-4DEA-81AB-25F4C952DFC1}</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKAccessToken.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKAppEvents.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKApplicationDelegate.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKAppLinkResolver.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKAppLinkUtility.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKButton.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKConstants.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKCopying.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKCoreKit.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKGraphErrorRecoveryProcessor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKGraphRequest.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKGraphRequestConnection.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKGraphRequestDataAttachment.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKMacros.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKMutableCopying.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKProfile.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKProfilePictureView.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKSettings.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKTestUsersManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKUtility.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEvents+Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEventsDeviceInfo.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEventsState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEventsStateManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEventsUtility.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKPaymentObserver.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKTimeSpentData.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\AppLink\FBSDKBoltsMeasurementEventListener.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\Base64\FBSDKBase64.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPICrypto.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPIProtocol.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPIProtocolType.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPIRequest.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPIRequest+Private.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPIResponse.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKURLOpening.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions\FBSDKBridgeAPIProtocolNativeV1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions\FBSDKBridgeAPIProtocolWebV1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions\FBSDKBridgeAPIProtocolWebV2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\Cryptography\FBSDKCrypto.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ErrorRecovery\_FBSDKTemporaryErrorRecoveryAttempter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ErrorRecovery\FBSDKErrorRecoveryAttempter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKApplicationDelegate+Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKAudioResourceLoader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKContainerViewController.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKCoreKit+Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKDynamicFrameworkLoader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKError.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKInternalUtility.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKLogger.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKMath.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKMonotonicTime.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKProfile+Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKSettings+Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKSystemAccountStoreAdapter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKTriStateBOOL.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKTypeUtility.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\Network\FBSDKGraphRequest+Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\Network\FBSDKGraphRequestBody.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\Network\FBSDKGraphRequestConnection+Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\Network\FBSDKGraphRequestMetadata.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\Network\FBSDKGraphRequestPiggybackManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\Network\FBSDKURLConnection.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKDialogConfiguration.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKErrorConfiguration.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKErrorRecoveryConfiguration.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKServerConfiguration.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKServerConfiguration+Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKServerConfigurationManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKServerConfigurationManager+Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCache.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCacheV3_17.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCacheV3_21.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCacheV3.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCacheV4.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCaching.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKKeychainStore.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKKeychainStoreViaBundleID.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\UI\FBSDKButton+Subclass.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\UI\FBSDKCloseIcon.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\UI\FBSDKColor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\UI\FBSDKIcon.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\UI\FBSDKLogo.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\UI\FBSDKMaleSilhouetteIcon.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\UI\FBSDKUIUtility.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\UI\FBSDKViewImpressionTracker.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\WebDialog\FBSDKWebDialog.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\WebDialog\FBSDKWebDialogView.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKitTests\FBSDKCoreKitTestUtility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+</Project>

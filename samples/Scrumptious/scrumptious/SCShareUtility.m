@@ -117,6 +117,8 @@
         [self.delegate shareUtilityWillShare:self];
         [_shareAPI share];
     } else {
+	// IW_COMPAT
+	/*
         [[[FBSDKLoginManager alloc] init]
          logInWithPublishPermissions:@[publish_actions]
          fromViewController:nil
@@ -130,6 +132,7 @@
                  [_delegate shareUtility:self didFailWithError:nil];
              }
          }];
+		 */
     }
 }
 

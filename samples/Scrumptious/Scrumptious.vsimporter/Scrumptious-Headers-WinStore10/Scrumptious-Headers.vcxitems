@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsRootNamespace>Scrumptious_Headers</ItemsRootNamespace>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <ItemsProjectGuid>{9AC4CBF1-D0F2-47E9-BD72-BF013E1B7671}</ItemsProjectGuid>
+    <SharedGUID>{F689F062-C6B6-4F52-99F4-534039DE6FD8}</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Scrumptious\SCAppDelegate.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\scrumptious\SCImagePicker.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\scrumptious\SCLoginViewController.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\scrumptious\SCMainViewController.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\scrumptious\SCMealPicker.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\scrumptious\SCProfilePictureButton.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\scrumptious\SCSettings.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\scrumptious\SCShareUtility.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Scrumptious\Scrumptious-Prefix.pch">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\scrumptious\SCPickerViewController.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+</Project>

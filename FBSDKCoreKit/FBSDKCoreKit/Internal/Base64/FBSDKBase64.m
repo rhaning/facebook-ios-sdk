@@ -96,7 +96,10 @@ static FBSDKBase64 *_encoder;
   } else {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
-    return [[NSData alloc] initWithBase64Encoding:string];
+    // TODO: IW_COMPAT
+	//return [[NSData alloc] initWithBase64Encoding:string];
+	//return [[NSData alloc] initWithBase64EncodedString:string];
+	return [NSData alloc];
 #pragma clang diagnostic pop
   }
 }
@@ -120,7 +123,9 @@ static FBSDKBase64 *_encoder;
   } else {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
-    return [data base64Encoding];
+    // TODO: IW_COMPAT
+	//return [data base64Encoding];
+	return nil;
 #pragma clang diagnostic pop
   }
 }

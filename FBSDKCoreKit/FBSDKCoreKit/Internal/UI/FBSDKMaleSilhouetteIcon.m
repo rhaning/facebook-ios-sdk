@@ -45,7 +45,9 @@
   CGPathAddLineToPoint(path, transform, 158.783, 158.783);
   CGPathRef result = CGPathCreateCopy(path);
   CGPathRelease(path);
-  return CFAutorelease(result);
+  // IW_COMPAT
+  //return CFAutorelease(result);
+  return result;
 }
 
 @end

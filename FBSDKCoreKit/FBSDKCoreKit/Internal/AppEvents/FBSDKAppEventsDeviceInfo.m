@@ -227,7 +227,9 @@ static FBSDKAppEventsDeviceInfo *g_singleton;
 
 + (uint)_coreCount
 {
-    return [FBSDKAppEventsDeviceInfo _readSysCtlUInt:CTL_HW type:HW_AVAILCPU];
+	// IW_COMPAT
+    //return [FBSDKAppEventsDeviceInfo _readSysCtlUInt:CTL_HW type:HW_AVAILCPU];
+	return 1;
 }
 
 + (uint)_readSysCtlUInt:(int)ctl type:(int)type

@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FBSDKShareKit">
+      <UniqueIdentifier>{0E2A6CD6-3118-4332-8F2E-75095C787440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKShareKit\Internal">
+      <UniqueIdentifier>{D35D6405-DAD7-41B4-85A4-51EBD328B643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKShareKit\Models">
+      <UniqueIdentifier>{E238A5D4-7E7A-43FE-8C97-85C11D9CE7D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKShareKit\Views">
+      <UniqueIdentifier>{FFA9C107-3950-4183-B31C-6F940C4F9C20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKSendButton.m">
+      <Filter>FBSDKShareKit\Views</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKLikeBoxView.m">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareButton.m">
+      <Filter>FBSDKShareKit\Views</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareVideo.m">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKMessageDialog.m">
+      <Filter>FBSDKShareKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKLikeObjectType.m">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareLinkContent.m">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKSharePhotoContent.m">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKLikeButtonPopWAV.m">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareDialog.m">
+      <Filter>FBSDKShareKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKLikeDialog.m">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKCheckmarkIcon.m">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKGameRequestContent.m">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareOpenGraphValueContainer.m">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKLikeActionControllerCache.m">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKGameRequestDialog.m">
+      <Filter>FBSDKShareKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareConstants.m">
+      <Filter>FBSDKShareKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKMessengerIcon.m">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKShareError.m">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKShareUtility.m">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKAppGroupJoinDialog.m">
+      <Filter>FBSDKShareKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareOpenGraphAction.m">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareVideoContent.m">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareAPI.m">
+      <Filter>FBSDKShareKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKVideoUploader.m">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareDialogMode.m">
+      <Filter>FBSDKShareKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKLikeActionController.m">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKAppInviteDialog.m">
+      <Filter>FBSDKShareKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKLikeBoxBorderView.m">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKAppGroupAddDialog.m">
+      <Filter>FBSDKShareKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareOpenGraphObject.m">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKSharePhoto.m">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKAppGroupContent.m">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKLikeControl.m">
+      <Filter>FBSDKShareKit\Views</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\Internal\FBSDKGameRequestFrictionlessRecipientCache.m">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKShareOpenGraphContent.m">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKLikeButton.m">
+      <Filter>FBSDKShareKit\Views</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKShareKit\FBSDKAppInviteContent.m">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClangCompile>
+  </ItemGroup>
+</Project>

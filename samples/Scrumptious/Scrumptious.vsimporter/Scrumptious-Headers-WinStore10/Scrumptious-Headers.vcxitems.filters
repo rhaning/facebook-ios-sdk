@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Scrumptious">
+      <UniqueIdentifier>{B8B58C6D-173E-45EF-A857-8B4AB9080DBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scrumptious\Supporting Files">
+      <UniqueIdentifier>{6D416A82-8B60-4097-AF94-5FD1AE7C9F49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Scrumptious\SCAppDelegate.h">
+      <Filter>Scrumptious</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\scrumptious\SCImagePicker.h">
+      <Filter>Scrumptious</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\scrumptious\SCLoginViewController.h">
+      <Filter>Scrumptious</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\scrumptious\SCMainViewController.h">
+      <Filter>Scrumptious</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\scrumptious\SCMealPicker.h">
+      <Filter>Scrumptious</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\scrumptious\SCProfilePictureButton.h">
+      <Filter>Scrumptious</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\scrumptious\SCSettings.h">
+      <Filter>Scrumptious</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\scrumptious\SCShareUtility.h">
+      <Filter>Scrumptious</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Scrumptious\Scrumptious-Prefix.pch">
+      <Filter>Scrumptious\Supporting Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\scrumptious\SCPickerViewController.h">
+      <Filter>Scrumptious</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

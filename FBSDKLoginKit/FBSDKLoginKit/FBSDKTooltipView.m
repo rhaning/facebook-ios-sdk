@@ -376,8 +376,12 @@ static CGMutablePathRef _createCloseCrossGlyphWithRect(CGRect rect)
   CGMutablePathRef groupedPath = CGPathCreateMutable();
   CGPathAddPath(groupedPath, NULL, path1);
   CGPathAddPath(groupedPath, NULL, path2);
+  
+  //IW_COMPAT
+  /*
   CFRelease(path1);
   CFRelease(path2);
+  */
 
   return groupedPath;
 }
@@ -453,11 +457,15 @@ static CGMutablePathRef _createCloseCrossGlyphWithRect(CGRect rect)
   CGContextFillPath(context);
   CGGradientRelease(gradient);
   CGContextRestoreGState(context);
+
+  // IW_COMPAT
+/*
   CFRelease(outerPath);
   CFRelease(innerPath);
   CFRelease(fillPath);
   CFRelease(crossCloseGlyphPath);
-}
+  */
+  }
 
 #pragma mark Layout
 

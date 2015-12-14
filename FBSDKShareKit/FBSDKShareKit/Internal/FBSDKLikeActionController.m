@@ -119,6 +119,9 @@ static FBSDKLikeActionControllerCache *_cache = nil;
       if (data) {
         NSKeyedUnarchiver *unarchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
         unarchiver.requiresSecureCoding = YES;
+
+		// IW_COMPAT
+		/*
         @try {
           _cache = [unarchiver decodeObjectOfClass:[FBSDKLikeActionControllerCache class]
                                             forKey:NSKeyedArchiveRootObjectKey];
@@ -126,6 +129,7 @@ static FBSDKLikeActionControllerCache *_cache = nil;
         @catch (NSException *ex) {
           // ignore decoding exceptions from previous versions of the archive, etc
         }
+		*/
         if (![_cache.accessTokenString isEqualToString:accessTokenString]) {
           _cache = nil;
         }
@@ -440,8 +444,12 @@ static FBSDKLikeActionControllerCache *_cache = nil;
   NSPointerFunctionsOptions valueOptions = (NSPointerFunctionsStrongMemory |
                                             NSPointerFunctionsObjectPersonality |
                                             NSPointerFunctionsCopyIn);
+
+  // IW_COMPAT
+  /*
   _dialogToAnalyticsParametersMap = [[NSMapTable alloc] initWithKeyOptions:keyOptions valueOptions:valueOptions capacity:0];
   _dialogToUpdateBlockMap = [[NSMapTable alloc] initWithKeyOptions:keyOptions valueOptions:valueOptions capacity:0];
+  */
 
   _contentAccessCount = 1;
 }
@@ -953,7 +961,8 @@ static void FBSDKLikeActionControllerAddRefreshRequests(FBSDKAccessToken *access
   static NSMapTable *_executing = nil;
   static dispatch_once_t onceToken;
   dispatch_once(&onceToken, ^{
-    _executing = [[NSMapTable alloc] initWithKeyOptions:NSPointerFunctionsCopyIn valueOptions:NSPointerFunctionsStrongMemory capacity:0];
+  // IW_COMPAT
+    //_executing = [[NSMapTable alloc] initWithKeyOptions:NSPointerFunctionsCopyIn valueOptions:NSPointerFunctionsStrongMemory capacity:0];
   });
 
   NSString *objectKey = [NSString stringWithFormat:

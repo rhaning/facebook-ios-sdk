@@ -31,6 +31,9 @@
 #import "FBSDKSettings.h"
 #import "FBSDKTypeUtility.h"
 
+// IW_COMPAT
+#import "IWCompat.h"
+
 #define FBSDKBridgeAPIProtocolNativeV1BridgeMaxBase64DataLengthThreshold (1024 * 16)
 
 const FBSDKBridgeAPIProtocolNativeV1OutputKeysStruct FBSDKBridgeAPIProtocolNativeV1OutputKeys =

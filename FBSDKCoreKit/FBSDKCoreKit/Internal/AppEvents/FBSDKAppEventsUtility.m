@@ -18,6 +18,8 @@
 
 #import "FBSDKAppEventsUtility.h"
 
+// IW_COMPAT
+/*
 #import <AdSupport/AdSupport.h>
 
 #import "FBSDKAccessToken.h"
@@ -303,3 +305,4 @@
 }
 
 @end
+*/

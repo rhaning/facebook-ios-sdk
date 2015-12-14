@@ -18,7 +18,7 @@
 
 #import "FBSDKShareAPI.h"
 
-#import <AssetsLibrary/AssetsLibrary.h>
+//#import <AssetsLibrary/AssetsLibrary.h>
 
 #import <FBSDKCoreKit/FBSDKAccessToken.h>
 #import <FBSDKCoreKit/FBSDKGraphRequest.h>
@@ -49,7 +49,9 @@ static NSMutableArray *g_pendingFBSDKShareAPI;
 
 @implementation FBSDKShareAPI {
   NSFileHandle *_fileHandle;
-  ALAssetRepresentation *_assetRepresentation;
+
+  // IW_COMPAT
+  //ALAssetRepresentation *_assetRepresentation;
 }
 
 #pragma mark - Class Methods
@@ -71,6 +73,8 @@ static NSMutableArray *g_pendingFBSDKShareAPI;
 
 #pragma mark - Object Lifecycle
 
+// IW_COMPAT
+/*
 + (ALAssetsLibrary *)defaultAssetsLibrary {
   static dispatch_once_t pred = 0;
   static ALAssetsLibrary *library = nil;
@@ -79,6 +83,7 @@ static NSMutableArray *g_pendingFBSDKShareAPI;
   });
   return library;
 }
+*/
 
 + (void)initialize
 {
@@ -363,6 +368,9 @@ static NSMutableArray *g_pendingFBSDKShareAPI;
 
 - (BOOL)_shareVideoContent:(FBSDKShareVideoContent *)videoContent
 {
+// IW_COMPAT
+return NO;
+/*
   NSMutableDictionary *parameters = [[NSMutableDictionary alloc] init];
   [self _addCommonParameters:parameters content:videoContent];
   [FBSDKInternalUtility dictionary:parameters setObject:self.message forKey:@"description"];
@@ -378,6 +386,7 @@ static NSMutableArray *g_pendingFBSDKShareAPI;
   NSURL *videoURL = video.videoURL;
   if ([videoURL isFileURL]) {
     NSError *fileError;
+
     _fileHandle = [NSFileHandle fileHandleForReadingFromURL:videoURL error:&fileError];
     if (!_fileHandle) {
       [_delegate sharer:self didFailWithError:fileError];
@@ -411,6 +420,7 @@ static NSMutableArray *g_pendingFBSDKShareAPI;
   } else {
     return NO;
   }
+  */
 }
 
 - (BOOL)_addEncodedParametersToDictionary:(NSMutableDictionary *)parameters
@@ -733,8 +743,10 @@ static NSMutableArray *g_pendingFBSDKShareAPI;
 {
   @synchronized(g_pendingFBSDKShareAPI) {
     [g_pendingFBSDKShareAPI removeObject:self];
+
+	// IW_COMPAT
     _fileHandle = nil;
-    _assetRepresentation = nil;
+    //_assetRepresentation = nil;
   }
 }
 
@@ -750,7 +762,8 @@ static NSMutableArray *g_pendingFBSDKShareAPI;
       return nil;
     }
     return videoChunkData;
-  } else if (_assetRepresentation) {
+	// IW_COMPAT
+  } /*else if (_assetRepresentation) {
     NSMutableData *data = [NSMutableData dataWithLength:chunkSize];
     NSError *error;
     NSUInteger bufferedLength = [_assetRepresentation getBytes:[data mutableBytes] fromOffset:startOffset length:chunkSize error:&error];
@@ -758,7 +771,9 @@ static NSMutableArray *g_pendingFBSDKShareAPI;
       return nil;
     }
     return data;
+	
   }
+  */
   return nil;
 }
 

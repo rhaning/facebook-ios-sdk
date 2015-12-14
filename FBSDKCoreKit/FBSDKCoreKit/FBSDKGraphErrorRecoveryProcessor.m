@@ -86,6 +86,8 @@
           return NO;
         };
 
+		// IW_COMPAT
+		/*
         if ([request.tokenString isEqualToString:[[FBSDKSystemAccountStoreAdapter sharedInstance] accessTokenString]] &&
             isLoginRecoveryAttempter) {
           // special system auth case: if user has granted permissions we can simply renew. On a successful
@@ -105,6 +107,7 @@
           // short-circuit YES so that the renew callback resumes the control flow.
           return YES;
         }
+		*/
 
         return standardRecoveryWork();
       }

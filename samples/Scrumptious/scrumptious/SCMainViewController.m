@@ -18,7 +18,8 @@
 
 #import "SCMainViewController.h"
 
-#import <AddressBook/AddressBook.h>
+// IW_COMPAT
+//#import <AddressBook/AddressBook.h>
 #import <CoreLocation/CoreLocation.h>
 
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
@@ -280,8 +281,9 @@ static int const MIN_USER_GENERATED_PHOTO_DIMENSION = 480;
 
 // unused, required delegate methods
 - (void)locationManager:(CLLocationManager *)manager didDetermineState:(CLRegionState)state forRegion:(CLRegion *)region { }
-- (void)locationManager:(CLLocationManager *)manager didRangeBeacons:(NSArray *)beacons inRegion:(CLBeaconRegion *)region { }
-- (void)locationManager:(CLLocationManager *)manager rangingBeaconsDidFailForRegion:(CLBeaconRegion *)region withError:(NSError *)error { }
+// IW_COMPAT
+//- (void)locationManager:(CLLocationManager *)manager didRangeBeacons:(NSArray *)beacons inRegion:(CLBeaconRegion *)region { }
+//- (void)locationManager:(CLLocationManager *)manager rangingBeaconsDidFailForRegion:(CLBeaconRegion *)region withError:(NSError *)error { }
 - (void)locationManagerDidPauseLocationUpdates:(CLLocationManager *)manager { }
 - (void)locationManagerDidResumeLocationUpdates:(CLLocationManager *)manager { }
 

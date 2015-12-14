@@ -18,7 +18,9 @@
 
 #import "FBSDKErrorConfiguration.h"
 
-#import <FBSDKCoreKit/FBSDKCoreKit+Internal.h>
+// IW_COMPAT
+//#import <FBSDKCoreKit/FBSDKCoreKit+Internal.h>
+#import "FBSDKCoreKit+Internal.h"
 
 #import "FBSDKErrorRecoveryConfiguration.h"
 

@@ -24,6 +24,7 @@
 #import "FBSDKLogger.h"
 #import "FBSDKSettings+Internal.h"
 
+/*
 @interface FBSDKSystemAccountStoreAdapter ()
 
 @property (retain, nonatomic, readonly) ACAccountStore *accountStore;
@@ -273,3 +274,4 @@ static FBSDKSystemAccountStoreAdapter *_singletonInstance = nil;
 }
 
 @end
+*/

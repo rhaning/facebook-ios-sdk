@@ -20,7 +20,7 @@
 
 #import <sys/time.h>
 
-#import <mach-o/dyld.h>
+//#import <mach-o/dyld.h>
 
 #import "FBSDKCoreKit+Internal.h"
 #import "FBSDKError.h"
@@ -65,6 +65,7 @@ typedef NS_ENUM(NSUInteger, FBSDKInternalUtilityVersionShift)
                        error:errorRef];
 }
 
+/*
 + (NSDictionary *)dictionaryFromFBURL:(NSURL *)url
 {
   // version 3.2.3 of the Facebook app encodes the parameters in the query but
@@ -662,5 +663,5 @@ static NSMapTable *_transientObjects;
 
   return [schemes containsObject:urlScheme];
 }
-
+*/
 @end

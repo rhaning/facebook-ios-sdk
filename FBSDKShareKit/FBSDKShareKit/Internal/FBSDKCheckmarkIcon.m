@@ -37,7 +37,9 @@
   CGPathAddLines(path, transform, points, sizeof(points) / sizeof(points[0]));
   CGPathRef result = CGPathCreateCopy(path);
   CGPathRelease(path);
-  return CFAutorelease(result);
+  // IW_COMPAT
+  //return CFAutorelease(result);
+  return result;
 }
 
 @end

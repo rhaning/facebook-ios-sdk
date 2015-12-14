@@ -16,18 +16,20 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+/*
 #include <mach/mach.h>
 #include <mach/mach_time.h>
 #include <assert.h>
 #include <dispatch/dispatch.h>
 
 #import "FBSDKMonotonicTime.h"
-
+*/
 /**
  * PLEASE NOTE: FBSDKSDKMonotonicTimeTests work fine, but are disabled
  * because they take several seconds. Please re-enable them to test
  * any changes you're making here!
  */
+ /*
 static uint64_t _get_time_nanoseconds(void)
 {
     static struct mach_timebase_info tb_info = {0};
@@ -84,3 +86,4 @@ FBSDKMonotonicTimeSeconds FBSDKMonotonicTimeConvertMachUnitsToSeconds(FBSDKMachA
 
     return ratio * (double)machUnits;
 }
+*/

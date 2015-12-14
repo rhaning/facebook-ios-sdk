@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsRootNamespace>FBSDKIntegrationTests_Headers</ItemsRootNamespace>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <ItemsProjectGuid>{7B841715-3B6B-4313-B286-5E04EFBEB2F2}</ItemsProjectGuid>
+    <SharedGUID>{77D7584E-2BE2-46CB-A999-C2E8043D783E}</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\FBSDKCoreKit\FBSDKCoreKit\Internal\FBSDKCoreKit+Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKIntegrationTests\FBSDKIntegrationTestCase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\FBSDKShareKit\FBSDKShareKit\Internal\FBSDKShareKit+Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKIntegrationTests\FBSDKTestBlocker.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKTestHost\AppDelegate.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKTestHost\ViewController.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKTestHost\FBSDKTestHost-Prefix.pch" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+</Project>

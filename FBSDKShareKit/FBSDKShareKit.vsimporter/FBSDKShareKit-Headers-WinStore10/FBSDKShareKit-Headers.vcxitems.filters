@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FBSDKShareKit">
+      <UniqueIdentifier>{00574C79-3F7F-449E-B948-0CAB7FC0EBCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKShareKit\Internal">
+      <UniqueIdentifier>{73600105-E727-4805-9B53-85F8A14E26C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKShareKit\Models">
+      <UniqueIdentifier>{604E0819-C042-4C61-A7A0-34BF808FE4D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKShareKit\Views">
+      <UniqueIdentifier>{DA094718-7251-4E10-9423-52825FD327FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKShareKitTests">
+      <UniqueIdentifier>{9E3765FB-B423-4792-84FE-E5BD320140A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKShareKitTests\Models">
+      <UniqueIdentifier>{DBBC6C9D-3647-4ED3-8050-1023AE2AD2F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKAppGroupAddDialog.h">
+      <Filter>FBSDKShareKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKAppGroupJoinDialog.h">
+      <Filter>FBSDKShareKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKAppInviteDialog.h">
+      <Filter>FBSDKShareKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKGameRequestDialog.h">
+      <Filter>FBSDKShareKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKLiking.h">
+      <Filter>FBSDKShareKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKMessageDialog.h">
+      <Filter>FBSDKShareKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKShareAPI.h">
+      <Filter>FBSDKShareKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKShareConstants.h">
+      <Filter>FBSDKShareKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKShareDialog.h">
+      <Filter>FBSDKShareKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKShareDialogMode.h">
+      <Filter>FBSDKShareKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKShareKit.h">
+      <Filter>FBSDKShareKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKSharing.h">
+      <Filter>FBSDKShareKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKCheckmarkIcon.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\FBSDKCoreKit\FBSDKCoreKit\Internal\FBSDKCoreKit+Internal.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKGameRequestFrictionlessRecipientCache.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKLikeActionController.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKLikeActionControllerCache.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKLikeBoxBorderView.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKLikeBoxView.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKLikeButton+Internal.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKLikeButtonPopWAV.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKLikeControl+Internal.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKLikeDialog.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKMessengerIcon.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKShareDefines.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKShareError.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKShareKit+Internal.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKShareLinkContent+Internal.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKShareOpenGraphValueContainer+Internal.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKShareUtility.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\Internal\FBSDKVideoUploader.h">
+      <Filter>FBSDKShareKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKAppGroupContent.h">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKAppInviteContent.h">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKGameRequestContent.h">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKLikeObjectType.h">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKShareLinkContent.h">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKShareOpenGraphAction.h">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKShareOpenGraphContent.h">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKShareOpenGraphObject.h">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKShareOpenGraphValueContainer.h">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKSharePhoto.h">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKSharePhotoContent.h">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKShareVideo.h">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKShareVideoContent.h">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKSharingContent.h">
+      <Filter>FBSDKShareKit\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKLikeButton.h">
+      <Filter>FBSDKShareKit\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKLikeControl.h">
+      <Filter>FBSDKShareKit\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKSendButton.h">
+      <Filter>FBSDKShareKit\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKShareButton.h">
+      <Filter>FBSDKShareKit\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKit\FBSDKSharingButton.h">
+      <Filter>FBSDKShareKit\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKitTests\Models\FBSDKShareModelTestUtility.h">
+      <Filter>FBSDKShareKitTests\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKShareKitTests\FBSDKShareKitTestUtility.h">
+      <Filter>FBSDKShareKitTests</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

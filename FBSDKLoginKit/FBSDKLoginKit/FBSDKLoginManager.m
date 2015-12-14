@@ -115,11 +115,13 @@ static NSString *const FBSDKExpectedChallengeKey = @"expected_login_challenge";
 {
   FBSDKSystemAccountStoreAdapter *adapter = [FBSDKSystemAccountStoreAdapter sharedInstance];
 
+  // IW_COMPAT
+  /*
   if (!adapter.accountType) {
     handler(ACAccountCredentialRenewResultFailed, [FBSDKLoginError errorForFailedLoginWithCode:FBSDKLoginSystemAccountUnavailableErrorCode]);
   } else if (!adapter.accountType.accessGranted) {
     handler(ACAccountCredentialRenewResultFailed, [FBSDKLoginError errorForFailedLoginWithCode:FBSDKLoginSystemAccountAppDisabledErrorCode]);
-  } else {
+  } else*/ {
     [[FBSDKSystemAccountStoreAdapter sharedInstance] renewSystemAuthorization:handler];
   }
 }

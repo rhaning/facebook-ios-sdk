@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FBSDKCoreKit">
+      <UniqueIdentifier>{680C8E01-3398-47E1-A692-82EB1C9F1E9E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal">
+      <UniqueIdentifier>{1ADF354A-AFB2-473D-8866-62BFA758C6B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\AppEvents">
+      <UniqueIdentifier>{0AFFE255-4F40-4427-85AE-40EE4EA7C576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\AppLink">
+      <UniqueIdentifier>{3F1256A9-D3FD-4291-94BA-9529B84A912B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\Base64">
+      <UniqueIdentifier>{B6E15911-8A4A-4676-BF0D-192F5EFDCA6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\BridgeAPI">
+      <UniqueIdentifier>{71FB4576-C4D6-4696-BF7B-F4770D8782A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions">
+      <UniqueIdentifier>{0A1A0B48-2AF0-4ECA-8783-894314EDE770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\Cryptography">
+      <UniqueIdentifier>{D06B1C18-181D-4864-A0A3-300CCE593073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\ErrorRecovery">
+      <UniqueIdentifier>{E983D72B-3AA2-41AE-9872-C2890433F1BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\Network">
+      <UniqueIdentifier>{A9A1DB16-7926-42D8-B433-CF600155B091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\ServerConfiguration">
+      <UniqueIdentifier>{C9175926-67B0-41B2-B024-16820DBC7825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\TokenCaching">
+      <UniqueIdentifier>{4CEA8CF8-CCA8-40F6-A7FD-BAAE03787F14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\UI">
+      <UniqueIdentifier>{78EAFF33-A1C9-49C7-9B60-378949EF4361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKit\Internal\WebDialog">
+      <UniqueIdentifier>{1F6C67F2-EDB6-481D-A45D-2235D3D2B901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKCoreKitTests">
+      <UniqueIdentifier>{36E16A6B-F239-4E93-9B51-9CFBC21E419B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKAccessToken.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKAppEvents.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKApplicationDelegate.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKAppLinkResolver.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKAppLinkUtility.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKButton.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKConstants.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKCopying.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKCoreKit.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKGraphErrorRecoveryProcessor.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKGraphRequest.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKGraphRequestConnection.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKGraphRequestDataAttachment.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKMacros.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKMutableCopying.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKProfile.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKProfilePictureView.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKSettings.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKTestUsersManager.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\FBSDKUtility.h">
+      <Filter>FBSDKCoreKit</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEvents+Internal.h">
+      <Filter>FBSDKCoreKit\Internal\AppEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEventsDeviceInfo.h">
+      <Filter>FBSDKCoreKit\Internal\AppEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEventsState.h">
+      <Filter>FBSDKCoreKit\Internal\AppEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEventsStateManager.h">
+      <Filter>FBSDKCoreKit\Internal\AppEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKAppEventsUtility.h">
+      <Filter>FBSDKCoreKit\Internal\AppEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKPaymentObserver.h">
+      <Filter>FBSDKCoreKit\Internal\AppEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\AppEvents\FBSDKTimeSpentData.h">
+      <Filter>FBSDKCoreKit\Internal\AppEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\AppLink\FBSDKBoltsMeasurementEventListener.h">
+      <Filter>FBSDKCoreKit\Internal\AppLink</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\Base64\FBSDKBase64.h">
+      <Filter>FBSDKCoreKit\Internal\Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPICrypto.h">
+      <Filter>FBSDKCoreKit\Internal\BridgeAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPIProtocol.h">
+      <Filter>FBSDKCoreKit\Internal\BridgeAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPIProtocolType.h">
+      <Filter>FBSDKCoreKit\Internal\BridgeAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPIRequest.h">
+      <Filter>FBSDKCoreKit\Internal\BridgeAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPIRequest+Private.h">
+      <Filter>FBSDKCoreKit\Internal\BridgeAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKBridgeAPIResponse.h">
+      <Filter>FBSDKCoreKit\Internal\BridgeAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\FBSDKURLOpening.h">
+      <Filter>FBSDKCoreKit\Internal\BridgeAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions\FBSDKBridgeAPIProtocolNativeV1.h">
+      <Filter>FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions\FBSDKBridgeAPIProtocolWebV1.h">
+      <Filter>FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions\FBSDKBridgeAPIProtocolWebV2.h">
+      <Filter>FBSDKCoreKit\Internal\BridgeAPI\ProtocolVersions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\Cryptography\FBSDKCrypto.h">
+      <Filter>FBSDKCoreKit\Internal\Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ErrorRecovery\_FBSDKTemporaryErrorRecoveryAttempter.h">
+      <Filter>FBSDKCoreKit\Internal\ErrorRecovery</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ErrorRecovery\FBSDKErrorRecoveryAttempter.h">
+      <Filter>FBSDKCoreKit\Internal\ErrorRecovery</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKApplicationDelegate+Internal.h">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKAudioResourceLoader.h">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKContainerViewController.h">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKCoreKit+Internal.h">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKDynamicFrameworkLoader.h">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKError.h">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKInternalUtility.h">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKLogger.h">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKMath.h">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKMonotonicTime.h">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKProfile+Internal.h">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKSettings+Internal.h">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKSystemAccountStoreAdapter.h">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKTriStateBOOL.h">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\FBSDKTypeUtility.h">
+      <Filter>FBSDKCoreKit\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\Network\FBSDKGraphRequest+Internal.h">
+      <Filter>FBSDKCoreKit\Internal\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\Network\FBSDKGraphRequestBody.h">
+      <Filter>FBSDKCoreKit\Internal\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\Network\FBSDKGraphRequestConnection+Internal.h">
+      <Filter>FBSDKCoreKit\Internal\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\Network\FBSDKGraphRequestMetadata.h">
+      <Filter>FBSDKCoreKit\Internal\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\Network\FBSDKGraphRequestPiggybackManager.h">
+      <Filter>FBSDKCoreKit\Internal\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\Network\FBSDKURLConnection.h">
+      <Filter>FBSDKCoreKit\Internal\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKDialogConfiguration.h">
+      <Filter>FBSDKCoreKit\Internal\ServerConfiguration</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKErrorConfiguration.h">
+      <Filter>FBSDKCoreKit\Internal\ServerConfiguration</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKErrorRecoveryConfiguration.h">
+      <Filter>FBSDKCoreKit\Internal\ServerConfiguration</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKServerConfiguration.h">
+      <Filter>FBSDKCoreKit\Internal\ServerConfiguration</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKServerConfiguration+Internal.h">
+      <Filter>FBSDKCoreKit\Internal\ServerConfiguration</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKServerConfigurationManager.h">
+      <Filter>FBSDKCoreKit\Internal\ServerConfiguration</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\ServerConfiguration\FBSDKServerConfigurationManager+Internal.h">
+      <Filter>FBSDKCoreKit\Internal\ServerConfiguration</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCache.h">
+      <Filter>FBSDKCoreKit\Internal\TokenCaching</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCacheV3_17.h">
+      <Filter>FBSDKCoreKit\Internal\TokenCaching</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCacheV3_21.h">
+      <Filter>FBSDKCoreKit\Internal\TokenCaching</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCacheV3.h">
+      <Filter>FBSDKCoreKit\Internal\TokenCaching</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCacheV4.h">
+      <Filter>FBSDKCoreKit\Internal\TokenCaching</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKAccessTokenCaching.h">
+      <Filter>FBSDKCoreKit\Internal\TokenCaching</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKKeychainStore.h">
+      <Filter>FBSDKCoreKit\Internal\TokenCaching</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\TokenCaching\FBSDKKeychainStoreViaBundleID.h">
+      <Filter>FBSDKCoreKit\Internal\TokenCaching</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\UI\FBSDKButton+Subclass.h">
+      <Filter>FBSDKCoreKit\Internal\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\UI\FBSDKCloseIcon.h">
+      <Filter>FBSDKCoreKit\Internal\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\UI\FBSDKColor.h">
+      <Filter>FBSDKCoreKit\Internal\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\UI\FBSDKIcon.h">
+      <Filter>FBSDKCoreKit\Internal\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\UI\FBSDKLogo.h">
+      <Filter>FBSDKCoreKit\Internal\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\UI\FBSDKMaleSilhouetteIcon.h">
+      <Filter>FBSDKCoreKit\Internal\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\UI\FBSDKUIUtility.h">
+      <Filter>FBSDKCoreKit\Internal\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\UI\FBSDKViewImpressionTracker.h">
+      <Filter>FBSDKCoreKit\Internal\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\WebDialog\FBSDKWebDialog.h">
+      <Filter>FBSDKCoreKit\Internal\WebDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKit\Internal\WebDialog\FBSDKWebDialogView.h">
+      <Filter>FBSDKCoreKit\Internal\WebDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKCoreKitTests\FBSDKCoreKitTestUtility.h">
+      <Filter>FBSDKCoreKitTests</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

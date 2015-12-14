@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsRootNamespace>FBSDKLoginKit_Headers</ItemsRootNamespace>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <ItemsProjectGuid>{3BC195F2-4F17-4138-B86D-EDAD2E873060}</ItemsProjectGuid>
+    <SharedGUID>{04C635B2-5B1A-4D72-AFA1-EA6EAD0D4264}</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKit\FBSDKLoginButton.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKit\FBSDKLoginConstants.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKit\FBSDKLoginKit.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKit\FBSDKLoginManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKit\FBSDKLoginManagerLoginResult.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKit\FBSDKLoginTooltipView.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKit\FBSDKTooltipView.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKit\Internal\_FBSDKLoginRecoveryAttempter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\FBSDKCoreKit\FBSDKCoreKit\Internal\FBSDKCoreKit+Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKit\Internal\FBSDKLoginCompletion.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKit\Internal\FBSDKLoginCompletion+Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKit\Internal\FBSDKLoginError.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKit\Internal\FBSDKLoginKit+Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKit\Internal\FBSDKLoginManager+Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKit\Internal\FBSDKLoginManagerLogger.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKit\Internal\FBSDKLoginManagerLoginResult+Internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKit\Internal\FBSDKLoginUtility.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKLoginKitTests\FBSDKLoginUtilityTests.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+</Project>

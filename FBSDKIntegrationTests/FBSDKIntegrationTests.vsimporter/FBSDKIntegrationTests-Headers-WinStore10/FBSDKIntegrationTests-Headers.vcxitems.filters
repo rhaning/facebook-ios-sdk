@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FBSDKIntegrationTests">
+      <UniqueIdentifier>{72F44941-D835-4F02-9D1F-1470C42F16CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKTestHost">
+      <UniqueIdentifier>{0CA84B2C-EEB2-4451-8CB2-845D665FB35E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKTestHost\Supporting Files">
+      <UniqueIdentifier>{A24F62B9-EC9D-45B4-A960-C70A53A931FE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\FBSDKCoreKit\FBSDKCoreKit\Internal\FBSDKCoreKit+Internal.h">
+      <Filter>FBSDKIntegrationTests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKIntegrationTests\FBSDKIntegrationTestCase.h">
+      <Filter>FBSDKIntegrationTests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\FBSDKShareKit\FBSDKShareKit\Internal\FBSDKShareKit+Internal.h">
+      <Filter>FBSDKIntegrationTests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKIntegrationTests\FBSDKTestBlocker.h">
+      <Filter>FBSDKIntegrationTests</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKTestHost\AppDelegate.h">
+      <Filter>FBSDKTestHost</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKTestHost\ViewController.h">
+      <Filter>FBSDKTestHost</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\FBSDKTestHost\FBSDKTestHost-Prefix.pch">
+      <Filter>FBSDKTestHost\Supporting Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

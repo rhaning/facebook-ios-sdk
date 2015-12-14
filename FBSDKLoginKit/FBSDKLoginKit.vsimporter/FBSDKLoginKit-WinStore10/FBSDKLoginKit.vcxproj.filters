@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FBSDKLoginKit">
+      <UniqueIdentifier>{A682C08D-FCFF-48A4-8997-40D012D659BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBSDKLoginKit\Internal">
+      <UniqueIdentifier>{8F7631B3-5E6A-4042-92B0-C8972B529CFA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClangCompile Include="..\..\FBSDKLoginKit\FBSDKLoginButton.m">
+      <Filter>FBSDKLoginKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKLoginKit\Internal\FBSDKLoginCompletion.m">
+      <Filter>FBSDKLoginKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKLoginKit\FBSDKLoginConstants.m">
+      <Filter>FBSDKLoginKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKLoginKit\Internal\FBSDKLoginError.m">
+      <Filter>FBSDKLoginKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKLoginKit\FBSDKLoginManager.m">
+      <Filter>FBSDKLoginKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKLoginKit\FBSDKLoginManagerLoginResult.m">
+      <Filter>FBSDKLoginKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKLoginKit\FBSDKLoginTooltipView.m">
+      <Filter>FBSDKLoginKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKLoginKit\Internal\FBSDKLoginUtility.m">
+      <Filter>FBSDKLoginKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKLoginKit\FBSDKTooltipView.m">
+      <Filter>FBSDKLoginKit</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKLoginKit\Internal\_FBSDKLoginRecoveryAttempter.m">
+      <Filter>FBSDKLoginKit\Internal</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\FBSDKLoginKit\Internal\FBSDKLoginManagerLogger.m">
+      <Filter>FBSDKLoginKit\Internal</Filter>
+    </ClangCompile>
+  </ItemGroup>
+</Project>

@@ -18,6 +18,9 @@
 
 #import "FBSDKDynamicFrameworkLoader.h"
 
+// IW_COMPAT
+
+/*
 #import <dlfcn.h>
 
 #import <Security/Security.h>
@@ -554,3 +557,4 @@ Class fbsdkdfl_CTTelephonyNetworkInfoClass(void)
     _fbsdkdfl_CoreTelephonyLibrary_get_c(CTTelephonyNetworkInfo);
     return c;
 }
+*/

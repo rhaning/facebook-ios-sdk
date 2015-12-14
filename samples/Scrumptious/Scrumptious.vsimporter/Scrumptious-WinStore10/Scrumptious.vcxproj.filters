@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{6f355954-bc4d-4901-82cf-79ebeb4b5b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{45594f23-d3ed-4af9-b732-8e76afc9535f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scrumptious">
+      <UniqueIdentifier>{E9D6460D-0AAA-4078-A5E5-2E259FB26344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scrumptious\Supporting Files">
+      <UniqueIdentifier>{1AF37BAF-319F-4309-958B-957382BA7634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scrumptious\Supporting Files\en">
+      <UniqueIdentifier>{F4C80FF9-9133-42CD-B1F0-C2170EF1F44F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xcode Variable Files">
+      <UniqueIdentifier>{DFB8B6D7-52E1-416A-B5BE-DA7491D4DB45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <ClangCompile Include="..\..\Scrumptious\main.m">
+      <Filter>Scrumptious\Supporting Files</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\scrumptious\SCLoginViewController.m">
+      <Filter>Scrumptious</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\scrumptious\SCPickerViewController.m">
+      <Filter>Scrumptious</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\scrumptious\SCProfilePictureButton.m">
+      <Filter>Scrumptious</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\scrumptious\SCMainViewController.m">
+      <Filter>Scrumptious</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Scrumptious\SCAppDelegate.m">
+      <Filter>Scrumptious</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\scrumptious\SCImagePicker.m">
+      <Filter>Scrumptious</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\scrumptious\SCShareUtility.m">
+      <Filter>Scrumptious</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\scrumptious\SCMealPicker.m">
+      <Filter>Scrumptious</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\scrumptious\SCSettings.m">
+      <Filter>Scrumptious</Filter>
+    </ClangCompile>
+    <ClInclude Include="..\..\Scrumptious\Scrumptious-Prefix.pch" />
+    <SBResourceCopy Include="..\..\Scrumptious\en.lproj\InfoPlist.strings">
+      <Filter>Scrumptious\Supporting Files\en</Filter>
+    </SBResourceCopy>
+    <StoryboardCompile Include="..\..\scrumptious\SCMain.storyboard">
+      <Filter>Scrumptious</Filter>
+    </StoryboardCompile>
+    <AssetCatalogCompile Include="..\..\Scrumptious\Images.xcassets">
+      <Filter>Scrumptious</Filter>
+    </AssetCatalogCompile>
+    <SBResourceCopy Include="..\..\scrumptious\en.lproj\Scrumptious.strings">
+      <Filter>Scrumptious\Supporting Files\en</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\ReadMe.txt" />
+    <SBInfoPlistCopy Include="..\..\Scrumptious\Scrumptious-Info.plist" />
+    <Text Include="Scrumptious-Debug-xcvars.txt">
+      <Filter>Xcode Variable Files</Filter>
+    </Text>
+    <Text Include="Scrumptious-Release-xcvars.txt">
+      <Filter>Xcode Variable Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="default.rd.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scrumptious_TemporaryKey.pfx" />
+  </ItemGroup>
+</Project>
